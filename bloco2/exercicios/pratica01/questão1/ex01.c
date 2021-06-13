@@ -29,7 +29,7 @@ main(){
     tempo_minutos = tempo_segundos / 60;
     tempo_horas = tempo_minutos / 60;
 
-    printf("\nRepeticao: %d\nTempo em segundos: %.0f\nTempo em minutos: %.2f\nTempo em horas: %.2f\n", repeticao, tempo_segundos, tempo_minutos, tempo_horas);
+    printf("\nTempo em segundos: %.0f\nTempo em minutos: %.2f\nTempo em horas: %.2f\n", tempo_segundos, tempo_minutos, tempo_horas);
 
     printf("\n- - - - - - - -   Fim   - - - - - - - -\n");
 
