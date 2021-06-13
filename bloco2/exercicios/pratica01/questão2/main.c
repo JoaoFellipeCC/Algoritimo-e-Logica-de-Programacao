@@ -41,4 +41,5 @@ main(){
     printf("\nA quantidade de numeros pares digitados foi: %d.\n\n", par);
     printf("A quantidade de numeros impares digitados foi: %d.\n\n", impar);
     printf("A media geral dos numeros digitados foi: %.2f.\n\n", soma_geral/cont);
+    system("pause");
 }
