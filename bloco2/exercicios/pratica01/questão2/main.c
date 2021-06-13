@@ -11,7 +11,7 @@ main(){
     do
     {
         system("cls");
-        printf("Insira um numero inteiro qualquer: ");
+        printf("Insira um numero positivo qualquer: ");
         scanf("%f", &num);
         if (num>=0)
         {
