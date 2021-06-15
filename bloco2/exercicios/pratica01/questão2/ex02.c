@@ -4,23 +4,23 @@
 main(){
     float num, soma_par, soma_geral;
     int resp, cont, teste, par, impar, num_positivo;
-    soma_geral=0;
-    cont=0;
-    par=0;
-    impar=0;
-    num_positivo=0;
+    soma_geral = 0;
+    cont = 0;
+    par = 0;
+    impar = 0;
+    num_positivo = 0;
     do
     {
         system("cls");
         printf("- - - - Dados dos numeros - - - -\n");
         printf("\nInsira um numero positivo qualquer: ");
         scanf("%f", &num);
-        if (num>=0)
+        if (num >= 0)
         {
             num_positivo++;
             soma_geral+=num;
             cont++;
-            if ((int)(num*10.0)%10==0)
+            if ((int)(num * 10.0)%10==0)
             {
                 teste=num;    
                 if (teste % 2 ==0)
@@ -40,10 +40,11 @@ main(){
         }
         printf("\nQuer continuar inserindo numeros(sim=1/nao=0)?");
         scanf("%d",&resp);
-    } while (resp==1);
+    } while (resp == 1);
     system("cls");
-    if (num_positivo>0)
+    if (num_positivo > 0)
     {
+        printf("-------------------------------------------------------\n");
         printf("\nA quantidade de numeros pares digitados foi: %d.\n", par);
         printf("-------------------------------------------------------\n");
         printf("A quantidade de numeros impares digitados foi: %d.\n", impar);

@@ -35,7 +35,7 @@ main(){
 
     printf("\n- - - - - - - - - - - - - - - - - - -\n");
 
-    printf("\nO valor do ingresso que gerou o maior lucro foi: %.2f\nNessa sessao, %d pessoas compareceram.\nE o lucro liquido foi: %.2f", ingresso_maior_lucro, pessoas_maior_lucro, maior_lucro);
+    printf("\nO valor do ingresso que gerou o maior lucro foi: %.2f\nNessa sessao, %d pessoas compareceram.\nE o lucro liquido foi: %.2f\n", ingresso_maior_lucro, pessoas_maior_lucro, maior_lucro);
 
     printf("\n- - - - - - -   Fim   - - - - - - -\n");
 
